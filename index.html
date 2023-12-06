@@ -2,29 +2,47 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Ở đời luôn có những câu hỏi</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Permanent+Marker&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+  <title>Chương Phạm [Beta]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:700'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div id="left-side" class="side">
-  <h2 class="title">
-    Ở đời luôn có những câu hỏi không thể trả lời, dù không phải 
-    <span class="fancy">quá khó</span>      
-  </h2>
+<div class="wrapper">
+  <canvas id="stars"></canvas>
+  <canvas id="yahia"></canvas>
+  <div class="container">
+    <div class="template color-yellow" data-template="home">
+      <main>
+        <h1><span>Chương 
+            <mark>18 tuổi</mark></span><span> là 1 culi chính hiệu.</span></h1>
+        <div class="p"><span>hoangchuongk10@gmail.com</span><span>(+84) 034 9672 080</span></div>
+        <div class="links">
+          <a class="link color-yellow" href="https://github.com/PhamChuongBD" title="View my bucket list" target="_blank">View my github</a>
+          <a class="link color-green" href="https://github.com/PhamChuongBD" title="Tell me a secret" target="_blank">Tell me a secret</a>
+          <a class="link color-red" href="https://github.com/PhamChuongBD" title="Download my résumé" target="_blank">Download my résumé</a>
+        </div>
+      </main>
+      <footer>
+        <div class="links"><a class="link small alt" href="#" title="Facebook" target="_blank">Facebook</a><a class="link small alt" href="#" title="Twitter" target="_blank">Twitter</a><a class="link small alt" href="#" title="Codepen" target="_blank">Codepen</a><a class="link small alt" href="#" title="GitHub " target="_blank">GitHub</a></div>
+      </footer>
+    </div>
+    <div class="loading" id="identity" >
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <a class="loading" id="signature" href="https://github.com/PhamChuongBD" title="Go to home" target="_blank"></a>
+  </div>
 </div>
-<div id="right-side" class="side">
-  <h2 class="title">
-    Ở đời luôn có những câu hỏi không thể trả lời, dù không phải 
-    <span class="fancy">quá khó</span>     
-  </h2>
-</div>
-
 <!-- partial -->
-  <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script src='//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
